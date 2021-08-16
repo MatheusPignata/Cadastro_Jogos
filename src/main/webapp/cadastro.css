@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: linear-gradient(45deg, #1C1C1C 35%, #363636 35%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+ 	height: 937px;
+ 	font-size: 20px;
+}
+
+.input{
+	background-color: #00FF7F;
+	margin: 30px 15px;
+	font-size: 20px;
+	outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+::placeholder {
+    color: #000;
+}
+
+.btn{
+	background-color: #00FF7F;
+	border-radius: 15px;
+	font-size: 16px;
+	margin-right: 5px;
+	padding: 4px;
+}
+p{
+	color: white;
+	padding: 15px;
+	font-size: 26px;
+}

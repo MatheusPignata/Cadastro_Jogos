@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #1C1C1C 35%, #363636 35%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 937px;
+}
+
+.nav{
+	font-size:20px;
+}
+
+.nav>a{
+	padding: 20px;	
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+#busca{
+	border: solid 2px #000;
+    outline: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.meio{
+	background-image: linear-gradient(#00FF7F, #32CD32);
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    box-shadow: 10px 10px 5px rgb(12, 12, 12);
+}
+
+.tabela{
+	border-collapse: collapse;
+	margin: 25px 0 0;
+	min-width: 400px;
+	font-size: 20px;
+}
+
+.tabela tr th{
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: left;
+	font-weight: bold;
+	border: solid 1px black;
+	padding: 12px 15px;
+	
+}
+
+tr>td{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 12px 74.37px 0 0;
+	border: solid 1px #000;
+}
